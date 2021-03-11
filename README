@@ -1,0 +1,6 @@
+# How to create a new user on OSX remotely
+run mkuser
+in caes file fault is active you have to go to Privacy & Security and "enable" the user to decrypt them. Just type the new user's password once.
+
+# Remove user remotely
+dscl . delete /users/USER
