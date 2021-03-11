@@ -4,3 +4,6 @@ in caes file fault is active you have to go to Privacy & Security and "enable" t
 
 # Remove user remotely
 dscl . delete /users/USER
+
+# In case the files still persist in /Users/NEWUSER
+rm -rv /Users/NEWUSER
